@@ -1,0 +1,21 @@
+from tkinter import *
+def plus():
+    a = int(input("a: "))
+    b = int(input("b: "))
+    plusy = a + b
+    print(plusy)
+root = Tk()
+root.option_add("*Font","consolas 20")
+root.title("Python Flag")
+Label(root,bg="blue").pack(fill=X)
+Label(root,bg="blue").pack(fill=X)
+Label(root,bg="blue").pack(fill=X)
+Label(root,bg="white").pack(fill=X)
+Label(root,bg="white").pack(fill=X)
+Label(root,bg="yellow").pack(fill=X)
+Label(root,bg="yellow").pack(fill=X)
+Label(root,bg="yellow").pack(fill=X)
+Label(root,text="งงมั้ยล่ะครับ ระบุความงงของท่านในช่องนี้ได้").pack()
+Entry().pack()
+Button(text="Submit",fg="blue",bg="yellow").pack()
+root.mainloop()
